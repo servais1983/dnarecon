@@ -1,0 +1,5 @@
+name: Test comportement appli Web
+url: http://testphp.vulnweb.com
+steps:
+  - analyze
+  - classify
