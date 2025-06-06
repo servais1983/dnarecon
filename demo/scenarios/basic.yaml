@@ -1,0 +1,12 @@
+# Scénario basique pour DNARecon
+url: https://example.com
+headers:
+  User-Agent: DNARecon Demo
+  Accept: text/html
+cache: true
+timeout: 30
+security:
+  verify_ssl: true
+  check_headers: true
+rate_limit:
+  requests_per_second: 2 

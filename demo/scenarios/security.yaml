@@ -1,0 +1,18 @@
+# Scénario de sécurité pour DNARecon
+url: https://example.com
+headers:
+  User-Agent: DNARecon Security Scan
+  Accept: text/html
+security:
+  verify_ssl: true
+  check_headers: true
+  strict_headers: true
+  check_csp: true
+  check_hsts: true
+  check_xss_protection: true
+  check_frame_options: true
+  check_content_type: true
+timeout: 30
+rate_limit:
+  requests_per_second: 1
+cache: false  # Désactive le cache pour les tests de sécurité 
